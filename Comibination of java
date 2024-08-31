@@ -1,0 +1,25 @@
+import java.util.scanner;
+public class Basic Operations{
+    public static void main(string[] args)
+        Scanner sc = new Scanner (system.in)
+        System.out.println("enter the first number");
+        double num1 = scanner.nextDouble();
+        System.out.println("enter the second number");
+        double num2 = scanner.nextDouble();
+        double addition = num1+num2;
+        System.out.println("ADDITION" + addition);
+        double subtraction = num1-num2;
+        System.out.println("SUBTRACTION" + subtraction);
+        double multiplication = num1-num2;
+        System.out.println("Multiplication" + multiplication);
+        
+        if (num2!=0){
+            double divison = num1/num2;
+            System.out.println("Division" + division);
+        }else{
+            System.out.println("Divison cannot divide by Zero")
+        }
+        double average = (num1+num2)/2;
+        System.out.println("AVERAGE"+ average);
+        scanner.close();
+    }

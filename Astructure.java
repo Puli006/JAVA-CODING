@@ -1,0 +1,20 @@
+public class Astructure {
+    public static void main(String []arg) {
+        int rows = 4;
+                for (int i = 1; i <= rows+3; i++) {
+                    for (int j = 1; j <= rows; j++) {
+                        if(i==1 || i==rows || j==1 || j==rows ) {
+                        System.out.print("*");
+                        }
+                        else {
+                            System.out.print(" ");
+                        }
+                    }
+                    
+                    System.out.println();
+                }
+            }
+        
+
+
+}
